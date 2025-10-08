@@ -45,9 +45,22 @@ console.log(teachers);
 
 
 // 4. Rimuovi il primo insegnante dall'array e salvalo nella variabile firstTeacher qui sotto
-const firstTeacher = null;
+const firstTeacher = teachers.shift();
+//verifico che l'elemento rimosso sia il primo della lista
+console.log(firstTeacher);
+//verifico che effettivamente non sia più nella lista
+console.log(teachers);
+
+
+
 
 // 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
+teachers.push('Vanessa')
+//verifico che effettivamente sia in coda alla lista
+console.log(teachers);
+
+
+
 
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
 
