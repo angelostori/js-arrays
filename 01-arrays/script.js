@@ -18,7 +18,19 @@ const fourthTeacher = teachers[3];
 //eseguo una verifica
 console.log(fourthTeacher);
 
+
+
+
 // 2. Sostituisci il quinto insegnante nell'array teachers con 'Patrick'
+
+//tramite il metodo splice applicato alla lista prendo l'elemento nella posizione 4
+//specifico la quantità di elementi da sostituire, in questo caso 1 e specifico il
+//nuovo valore 
+teachers.splice(4 , 1 , 'Patrick')
+//eseguo una verifica
+console.log(teachers.at(4));
+
+
 
 // 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
 const lastTeacher = null;
