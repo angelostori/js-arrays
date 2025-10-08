@@ -32,8 +32,17 @@ console.log(teachers.at(4));
 
 
 
+
 // 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
-const lastTeacher = null;
+
+const lastTeacher = teachers.pop();
+//verifico che l'elemento rimosso sia l'ultimo della lista
+console.log(lastTeacher);
+//verifico che effettivamente non sia più nella lista
+console.log(teachers);
+
+
+
 
 // 4. Rimuovi il primo insegnante dall'array e salvalo nella variabile firstTeacher qui sotto
 const firstTeacher = null;
