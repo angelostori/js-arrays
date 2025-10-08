@@ -10,7 +10,18 @@ const teachers = [
 
 // 1. Inverti l'ordine degli insegnanti nell'array teachers
 // e salva il risultato nella variabile reversedTeachers
-const reversedTeachers = null;
+//dichiaro la variabile di tipo array
+const reversedTeachers = [];
+
+//ciclo al contrario per prendere gli indici dei valori dall'ultimo al primo
+for(let i = teachers.length-1 ; i >= 0 ; i--) {
+  //li pusho alla fine della lista per seguire un ordine decrescente 
+  //degli indici che grazie al metodo ritornano i valori
+  reversedTeachers.push(teachers[i])
+}
+//verifico
+console.log(reversedTeachers);
+
 
 // 2. Crea un nuovo array chiamato 'longNames' che contenga solo gli insegnanti
 // con un nome di lunghezza maggiore o uguale a 5 caratteri
